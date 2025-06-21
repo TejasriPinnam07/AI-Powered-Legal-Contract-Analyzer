@@ -1,0 +1,117 @@
+/* Main styles */
+body {
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+.header-subtitle {
+    color: #666666;
+    font-size: 1.1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Sidebar styles */
+.sidebar-footer {
+    font-size: 0.8rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Clause container styles */
+.clause-container {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.clause-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.clause-type {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.risk-badge {
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.clause-text {
+    margin: 0.8rem 0;
+    line-height: 1.6;
+}
+
+/* Entities styles */
+.entities-container {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.entities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.entity-tag {
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+/* Footer styles */
+.footer {
+    font-size: 0.9rem;
+    color: #666666;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #666666;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
