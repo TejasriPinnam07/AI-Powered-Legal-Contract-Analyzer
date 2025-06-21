@@ -1,0 +1,20 @@
+# Core Requirements
+streamlit==1.45.1
+spacy==3.8.7
+pdfplumber==0.11.6
+docx2txt==0.9
+sumy==0.11.0
+nltk==3.9.1
+scikit-learn==1.6.1
+transformers==4.37.2
+torch==2.7.1+cpu
+joblib==1.5.1
+pandas==2.2.3
+numpy==2.2.6
+python-docx==1.1.2
+
+# Spacy model (download separately)
+# python -m spacy download en_core_web_sm
+
+# NLTK data (download separately)
+# python -m nltk.downloader punkt
