@@ -1,26 +1,25 @@
 # Web Interface
-streamlit==1.45.1
+streamlit>=1.45.1,<2.0.0
 
 # NLP & ML
-spacy==3.8.7
-transformers==4.37.2
-torch==2.2.2
-scikit-learn==1.3.2
-joblib==1.3.2
+spacy>=3.8.7,<4.0.0
+transformers>=4.37.2,<5.0.0
+torch>=2.2.2,<3.0.0  # Will use latest compatible with Python 3.13
+scikit-learn>=1.3.2,<2.0.0
+joblib>=1.3.2,<2.0.0
 
 # Document Parsing
-pdfplumber==0.11.6
-docx2txt==0.8
-python-docx==1.1.2
+pdfplumber>=0.11.6,<1.0.0
+docx2txt>=0.8,<1.0.0
+python-docx>=1.1.2,<2.0.0
 
 # Summarization
-sumy==0.11.0
-nltk==3.9.1
+sumy>=0.11.0,<1.0.0
+nltk>=3.9.1,<4.0.0
 
 # Core Python Libraries
-pandas==2.2.2
-numpy==1.24.4
+pandas>=2.2.2,<3.0.0
+numpy>=1.24.4,<2.0.0
 
-# Optional: Add this only if you use Django-based APIs
-# Django==4.2.11
-# djangorestframework==3.14.0
+# Backend Compatibility
+typing-extensions>=4.0.0  # Required for newer Python versions
