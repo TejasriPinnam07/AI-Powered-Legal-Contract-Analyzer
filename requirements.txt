@@ -1,20 +1,26 @@
-# Core Requirements
+# UI Framework
 streamlit==1.45.1
+
+# NLP Libraries
 spacy==3.8.7
-pdfplumber==0.11.6
-docx2txt==0.9
+transformers==4.37.2
 sumy==0.11.0
 nltk==3.9.1
-scikit-learn==1.6.1
-transformers==4.37.2
-torch==2.7.1+cpu
 joblib==1.5.1
-pandas==2.2.3
-numpy==2.2.6
+
+# Machine Learning
+scikit-learn==1.4.2
+torch==2.5.0  # Compatible with transformers & Streamlit
+
+# File Parsing
+pdfplumber==0.11.6
+docx2txt==0.9
 python-docx==1.1.2
 
-# Spacy model (download separately)
-# python -m spacy download en_core_web_sm
+# Data Handling
+pandas==2.2.2
+numpy==1.26.4  # Avoid numpy 2.x for compatibility
 
-# NLTK data (download separately)
+# Model/Data Downloads (run separately)
+# python -m spacy download en_core_web_sm
 # python -m nltk.downloader punkt
