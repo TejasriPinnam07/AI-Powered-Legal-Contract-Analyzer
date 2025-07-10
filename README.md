@@ -13,6 +13,7 @@ TextRank algorithm for extractive summarization
 Streamlit for building an interactive user interface
 
 It supports PDF/DOCX/TXT contracts and provides:
+
 ✅ Clause parsing
 
 ✅ Entity extraction
