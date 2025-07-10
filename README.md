@@ -14,9 +14,13 @@ Streamlit for building an interactive user interface
 
 It supports PDF/DOCX/TXT contracts and provides:
 ✅ Clause parsing
+
 ✅ Entity extraction
+
 ✅ Risk classification
+
 ✅ Summary generation
+
 ✅ Downloadable results with filters
 # Project Structure
 legal-contract-analyzer/
